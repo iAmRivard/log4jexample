@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Log4j Example</title>
+    </h:head>
+    <h:body>
+        <h:body>
+            <center><h2>JSF Log4j Ejemplo</h2></center>
+            <h:form >
+                <h:commandButton value = "INFO" action="#{log4jexample.info()}" /> 
+                <h:commandButton value = "WARN" action="#{log4jexample.warn()}" /> 
+                <h:commandButton value = "ERROR" action="#{log4jexample.error()}"/> 
+                <h:commandButton value = "FATAL" action="#{log4jexample.fatal()}" /> 
+
+            </h:form>
+        </h:body>
+    </h:body>
+</html>
+
